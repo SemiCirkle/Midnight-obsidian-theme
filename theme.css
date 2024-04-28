@@ -93,11 +93,6 @@ svg * {
 		border-width: 1px;
 	}
 
-	/* Current open tab, unfocused window, tab file icon color. */
-	.mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
-		color: var(--color-light-blue);
-	}
-
 	.view-header-title {
 		color: var(--text-normal);
 	}
@@ -402,11 +397,11 @@ body {
 	--nav-item-size: var(--font-ui-small);
 	--nav-item-color: var(--text-muted);
 	--nav-item-color-hover: var(--text-normal);
-	--nav-item-color-active: var(--text-normal);
+	--nav-item-color-active: var(--color-light-blue);
 	--nav-item-color-selected: var(--text-normal);
 	--nav-item-color-highlighted: var(--text-accent-hover);
-	--nav-item-background-hover: var(--background-modifier-hover);
-	--nav-item-background-active: var(--background-modifier-hover);
+	--nav-item-background-hover: var(--color-muted-purple);
+	--nav-item-background-active: var(--color-muted-purple);
 	--nav-item-background-selected: hsla(var(--color-accent-hsl), 0.15);
 	--nav-item-padding: var(--size-4-1) var(--size-4-2) var(--size-4-1) var(--size-4-6);
 	--nav-item-parent-padding: var(--nav-item-padding);
@@ -590,7 +585,8 @@ body {
 	--tab-text-color: var(--text-faint);  /* Unfocused window, closed tab color. */
 	--tab-text-color-active: var(--text-muted);  /* Unfocused window, open tab color. */
 	--tab-text-color-focused: var(--text-faint);  /* Close tab button & closed tab text color, unfocused window. */
-	--tab-text-color-focused-active: var(--text-muted);
+	/* --tab-text-color-focused-active: var(--text-muted); */
+	--tab-text-color-focused-active: var(--text-faint);  /* Open tab text, focused window, unfocused editor. */
 	--tab-text-color-focused-highlighted: var(--text-accent);
 	--tab-text-color-focused-active-current: var(--color-light-blue);  /* Focused window, open tab color. */
 	--tab-font-size: var(--font-ui-small);
@@ -672,7 +668,7 @@ body {
 	--titlebar-border-width: 0px;
 	--titlebar-border-color: var(--background-modifier-border);
 	--titlebar-text-color: var(--text-muted);
-	--titlebar-text-color-focused: var(--text-normal);
+	--titlebar-text-color-focused: var(--text-muted);
 	--titlebar-text-weight: var(--font-bold);
 	/* Toggles */
 	--toggle-border-width: 2px;
@@ -757,17 +753,16 @@ body {
 	--color-pink-rgb: 250, 153, 205;
 	--color-pink: #fa99cd;
 	--color-base-00: var(--color-main-dark);  /* Main UI color. */
-	--color-base-05: #001aff;  /* Uncertain. Default: 212121 */
+	--color-base-05: #212121;  /* Not used */
 	--color-base-10: var(--color-secondary-dark);  /* The background color of code. */
 	--color-base-20: var(--color-secondary-dark);  /* Secondary color. "Non-main" UI. */
 	--color-base-25: #3c3c3c;  /* Search & settings input field color. */
 	--color-base-30: var(--color-outline);  /* Borders, settings buttons & focused window top color. */
 	--color-base-35: #3f3f3f;  /* Input fields, graph links, tab borders & button toggle-off color. */
-	/*--color-base-40: var(--color-light-blue);  /* Selected borders. E.g. command palatte border. */
-	--color-base-40: var(--color-light-blue);
+	--color-base-40: var(--color-light-blue);  /* Selected borders. E.g. command palatte border. */
 	--color-base-50: #666666;  /* Numbered list, checkbox border, bullet point, onfocused window unselected tabs color. */
 	--color-base-60: #999999;  /* Not used. */
-	--color-base-70: var(--color-light-blue);  /* b3b3b3 Status bar icons, icons, checkbox done, code & tab text colors. */
+	--color-base-70: var(--text-faint);  /* Status bar icons, icons, checkbox done, code & tab text colors. */
 	--color-base-100: #dadada;  /* Text */
 	--color-accent-hsl: var(--accent-h),
 		var(--accent-s),
