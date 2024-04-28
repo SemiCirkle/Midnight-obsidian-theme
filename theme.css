@@ -8,6 +8,8 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+
+	/* --font-text-theme: Consolas, Courier New, monospace; */
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -32,3 +34,24 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+:root {
+	/* Default Input Variables for Root */
+	--input-focus-border-color: Highlight;
+	--input-focus-outline: 1px solid Canvas;
+	--input-unfocused-border-color: transparent;
+	--input-disabled-border-color: transparent;
+	--input-hover-border-color: black;
+
+	/* Added */
+	--border-width: 1; /* No clue what this is. */
+
+	/* MAIN DARK THEME COLORS */
+	--color-main-dark: #040812;
+	--color-secondary-dark: #0f1116;
+	--color-light-blue: #849dff;
+	--color-light-purple: #aa8fd1;
+	--color-outline: #282828;
+	--color-obsidian-purple: #8a5cf5;
+}
+
