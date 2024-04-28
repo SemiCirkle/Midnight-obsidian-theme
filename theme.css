@@ -32,7 +32,6 @@ svg * {
 
 	/* Added */
 	--border-width: 1; /* No clue what this is. */
-	--inline-title-size-of: 2.35em;
 
 	/* MAIN DARK THEME COLORS */
 	--color-main-dark: #040812;
@@ -220,12 +219,18 @@ body {
 	--h4-line-height: 1.4;
 	--h5-line-height: var(--line-height-normal);
 	--h6-line-height: var(--line-height-normal);
-	--h1-size: 1.802em;
+	/* --h1-size: 1.802em;
 	--h2-size: 1.602em;
 	--h3-size: 1.424em;
 	--h4-size: 1.266em;
 	--h5-size: 1.125em;
-	--h6-size: 1em;
+	--h6-size: 1em; */
+	--h1-size: 2.002em;
+	--h2-size: 1.802em;
+	--h3-size: 1.624em;
+	--h4-size: 1.466em;
+	--h5-size: 1.325em;
+	--h6-size: 1.155em;
 	--h1-style: normal;
 	--h2-style: normal;
 	--h3-style: normal;
@@ -282,7 +287,7 @@ body {
 	--inline-title-color: var(--h1-color);
 	--inline-title-font: var(--h1-font);
 	--inline-title-line-height: var(--h1-line-height);
-	--inline-title-size: var(--inline-title-size-of);
+	--inline-title-size: 2.5em;  /* Default: --h1-size */
 	--inline-title-style: var(--h1-style);
 	--inline-title-variant: var(--h1-variant);
 	--inline-title-weight: var(--h1-weight);
