@@ -753,18 +753,18 @@ body {
 	--color-purple: #a882ff;
 	--color-pink-rgb: 250, 153, 205;
 	--color-pink: #fa99cd;
-	--color-base-00: #1e1e1e;
-	--color-base-05: #212121;
-	--color-base-10: #242424;
-	--color-base-20: #262626;
-	--color-base-25: #2a2a2a;
-	--color-base-30: #363636;
-	--color-base-35: #3f3f3f;
-	--color-base-40: #555555;
-	--color-base-50: #666666;
-	--color-base-60: #999999;
-	--color-base-70: #b3b3b3;
-	--color-base-100: #dadada;
+	--color-base-00: var(--color-main-dark);  /* Main UI color. */
+	--color-base-05: #001aff;  /* Uncertain. Default: 212121 */
+	--color-base-10: var(--color-secondary-dark);  /* The background color of code. */
+	--color-base-20: var(--color-secondary-dark);  /* Secondary color. "Non-main" UI. */
+	--color-base-25: #3c3c3c; /* Search & settings input field color. */
+	--color-base-30: var(--color-outline);  /* Borders, settings buttons & focused window top color. */
+	--color-base-35: #3f3f3f;  /* Input fields, graph links, tab borders & button toggle-off color. */
+	--color-base-40: var(--color-light-blue);  /* Selected borders. E.g. command palatte border. */
+	--color-base-50: #666666; /*fix later with tabs*/  /* Numbered list, checkbox border, bullet point, onfocused window unselected tabs color. */
+	--color-base-60: #999999;  /* Not used. */
+	--color-base-70: var(--color-light-blue); /* b3b3b3 Status bar icons, icons, checkbox done, code & tab text colors. */
+	--color-base-100: #dadada;  /* Text */
 	--color-accent-hsl: var(--accent-h),
 			  var(--accent-s),
 			  var(--accent-l);
