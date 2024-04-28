@@ -39,6 +39,56 @@ svg * {
 	--color-light-blue: #849dff;
 	--color-light-purple: #aa8fd1;
 	--color-outline: #282828;
+	
+	/* Custom bullet list */
+	.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
+		/* Bullet */
+		height: 5px;
+		width: 5px;
+		border-radius: 50%;
+		background-color: var(--text-faint);
+	}
+	.markdown-source-view.mod-cm6 .HyperMD-list-line-2 .list-bullet:after {
+		/* Dash */
+		height: 1px;
+		width: 7px;
+		border-radius: 0%;
+		background-color: var(--text-faint);
+	}
+	.markdown-source-view.mod-cm6 .HyperMD-list-line-3 .list-bullet:after {
+		/* Hollow Bullet */
+		height: 4px;
+		width: 4px;
+		background-color: Transparent;
+		border-color: var(--text-faint);
+		border-style: solid;
+		border-radius: 50%;
+		border-width: 1px;
+	}
+	.markdown-source-view.mod-cm6 .HyperMD-list-line-4 .list-bullet:after {
+		/* Solid Square */
+		height: 5px;
+		width: 5px;
+		border-radius: 0%;
+		background-color: var(--text-faint);
+	}
+	.markdown-source-view.mod-cm6 .HyperMD-list-line-5 .list-bullet:after {
+		/* Dash */
+		height: 1px;
+		width: 7px;
+		border-radius: 50%;
+		background-color: var(--text-faint);
+	}
+	.markdown-source-view.mod-cm6 .HyperMD-list-line-6 .list-bullet:after {
+		/* Hollow Square */
+		height: 4px;
+		width: 4px;
+		background-color: Transparent;
+		border-color: var(--text-faint);
+		border-style: solid;
+		border-radius: 0%;
+		border-width: 1px;
+	}
 }
 
 body {
