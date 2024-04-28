@@ -92,6 +92,11 @@ svg * {
 		border-radius: 0%;
 		border-width: 1px;
 	}
+
+	/* Current open tab, unfocused window, tab file icon color. */
+	.mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+		color: var(--color-light-blue);
+	}
 }
 
 body {
