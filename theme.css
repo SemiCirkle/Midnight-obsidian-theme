@@ -771,7 +771,7 @@ body {
 	--color-accent-1: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) * 1.02), calc(var(--accent-l) * 1.15));
 	--color-accent-2: hsl(calc(var(--accent-h) - 5), calc(var(--accent-s) * 1.05), calc(var(--accent-l) * 1.29));
 	--background-modifier-form-field: var(--color-base-25);
-	--background-secondary-alt: var(--color-base-30);
+	--background-secondary-alt: var(--color-base-20); /* Focused top border color. */
 	--interactive-normal: var(--color-base-30);
 	--interactive-hover: var(--color-base-35);
 	--text-accent: var(--color-accent-1);
