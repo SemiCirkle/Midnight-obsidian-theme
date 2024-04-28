@@ -318,10 +318,10 @@ body {
 	--icon-m-stroke-width: 1.75px;
 	--icon-l-stroke-width: 1.75px;
 	--icon-xl-stroke-width: 1.25px;
-	--icon-color: var(--text-muted);
-	--icon-color-hover: var(--text-muted);
+	--icon-color: var(--text-faint);
+	--icon-color-hover: var(--color-light-blue);
 	--icon-color-active: var(--text-accent);
-	--icon-color-focused: var(--text-normal);
+	--icon-color-focused: var(--color-light-blue);  /* Icon pressed down color. */
 	--icon-opacity: 0.85;
 	--icon-opacity-hover: 1;
 	--icon-opacity-active: 1;
@@ -585,11 +585,11 @@ body {
 	/* Tabs */
 	--tab-background-active: var(--color-muted-purple);  /* Current open tab background color. */
 	--tab-text-color: var(--text-faint);  /* Unfocused window, closed tab color. */
-	--tab-text-color-active: var(--text-muted);
-	--tab-text-color-focused: var(--text-muted);
+	--tab-text-color-active: var(--text-muted);  /* Unfocused window, open tab color. */
+	--tab-text-color-focused: var(--text-faint);  /* Close tab button & closed tab text color, unfocused window. */
 	--tab-text-color-focused-active: var(--text-muted);
 	--tab-text-color-focused-highlighted: var(--text-accent);
-	--tab-text-color-focused-active-current: var(--text-normal);
+	--tab-text-color-focused-active-current: var(--color-light-blue);  /* Focused window, open tab color. */
 	--tab-font-size: var(--font-ui-small);
 	--tab-font-weight: inherit;
 	--tab-container-background: var(--background-secondary);
