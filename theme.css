@@ -30,17 +30,13 @@ svg * {
 	--input-disabled-border-color: transparent;
 	--input-hover-border-color: black;
 
-
-	/* Added */
-	--border-width: 1;
-	/* No clue what this is. */
-
 	/* MAIN DARK THEME COLORS */
 	--color-main-dark: #040812;
 	--color-secondary-dark: #0f1116;
 	--color-light-blue: #849dff;
 	--color-light-purple: #aa8fd1;
 	--color-outline: #282828;
+	--color-muted-purple: #1e1e32;
 
 	/* Custom bullet list */
 	.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
@@ -582,8 +578,8 @@ body {
 	--swatch-width: 24px;
 	--swatch-shadow: inset 0 0 0 1px rgba(var(--mono-rgb-100), 0.15);
 	/* Tabs */
-	--tab-background-active: var(--background-primary);
-	--tab-text-color: var(--text-faint);
+	--tab-background-active: var(--color-muted-purple);  /* Current open tab background color. */
+	--tab-text-color: var(--text-faint);  /* Unfocused window, closed tab color. */
 	--tab-text-color-active: var(--text-muted);
 	--tab-text-color-focused: var(--text-muted);
 	--tab-text-color-focused-active: var(--text-muted);
@@ -812,31 +808,19 @@ body {
 	--color-purple: #a882ff;
 	--color-pink-rgb: 250, 153, 205;
 	--color-pink: #fa99cd;
-	--color-base-00: var(--color-main-dark);
-	/* Main UI color. */
-	--color-base-05: #001aff;
-	/* Uncertain. Default: 212121 */
-	--color-base-10: var(--color-secondary-dark);
-	/* The background color of code. */
-	--color-base-20: var(--color-secondary-dark);
-	/* Secondary color. "Non-main" UI. */
-	--color-base-25: #3c3c3c;
-	/* Search & settings input field color. */
-	--color-base-30: var(--color-outline);
-	/* Borders, settings buttons & focused window top color. */
-	--color-base-35: #3f3f3f;
-	/* Input fields, graph links, tab borders & button toggle-off color. */
+	--color-base-00: var(--color-main-dark);  /* Main UI color. */
+	--color-base-05: #001aff;  /* Uncertain. Default: 212121 */
+	--color-base-10: var(--color-secondary-dark);  /* The background color of code. */
+	--color-base-20: var(--color-secondary-dark);  /* Secondary color. "Non-main" UI. */
+	--color-base-25: #3c3c3c;  /* Search & settings input field color. */
+	--color-base-30: var(--color-outline);  /* Borders, settings buttons & focused window top color. */
+	--color-base-35: #3f3f3f;  /* Input fields, graph links, tab borders & button toggle-off color. */
+	/*--color-base-40: var(--color-light-blue);  /* Selected borders. E.g. command palatte border. */
 	--color-base-40: var(--color-light-blue);
-	/* Selected borders. E.g. command palatte border. */
-	--color-base-50: #666666;
-	/*fix later with tabs*/
-	/* Numbered list, checkbox border, bullet point, onfocused window unselected tabs color. */
-	--color-base-60: #999999;
-	/* Not used. */
-	--color-base-70: var(--color-light-blue);
-	/* b3b3b3 Status bar icons, icons, checkbox done, code & tab text colors. */
-	--color-base-100: #dadada;
-	/* Text */
+	--color-base-50: #666666;  /* Numbered list, checkbox border, bullet point, onfocused window unselected tabs color. */
+	--color-base-60: #999999;  /* Not used. */
+	--color-base-70: var(--color-light-blue);  /* b3b3b3 Status bar icons, icons, checkbox done, code & tab text colors. */
+	--color-base-100: #dadada;  /* Text */
 	--color-accent-hsl: var(--accent-h),
 		var(--accent-s),
 		var(--accent-l);
