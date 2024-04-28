@@ -97,6 +97,10 @@ svg * {
 	.mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon, .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
 		color: var(--color-light-blue);
 	}
+
+	.view-header-title {
+		color: var(--text-normal);
+	}
 }
 
 body {
@@ -339,7 +343,6 @@ body {
 	--inline-title-font: var(--h1-font);
 	--inline-title-line-height: var(--h1-line-height);
 	--inline-title-size: 2.5em;
-	/* Default: --h1-size */
 	--inline-title-style: var(--h1-style);
 	--inline-title-variant: var(--h1-variant);
 	--inline-title-weight: var(--h1-weight);
