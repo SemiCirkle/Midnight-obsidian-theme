@@ -175,18 +175,18 @@ body {
 	--code-white-space: pre-wrap;
 	--code-radius: var(--radius-s);
 	--code-size: var(--font-smaller);
-	--code-background: var(--background-primary-alt);
-	--code-normal: var(--text-muted);
-	--code-comment: var(--text-faint);
-	--code-function: var(--color-yellow);
+	--code-background: var(--color-secondary-dark);
+	--code-normal: var(--text-faint);
+	--code-comment: var(--text-muted);
+	--code-function: rgb(204, 65, 67);
 	--code-important: var(--color-orange);
-	--code-keyword: var(--color-pink);
-	--code-operator: var(--color-red);
-	--code-property: var(--color-cyan);
-	--code-punctuation: var(--text-muted);
-	--code-string: var(--color-green);
+	--code-keyword: rgb(172, 37, 131);
+	--code-operator: rgb(110, 178, 190);
+	--code-property: rgb(159, 101, 247);
+	--code-punctuation: rgb(204, 118, 209);
+	--code-string: rgb(224, 153, 66);
 	--code-tag: var(--color-red);
-	--code-value: var(--color-purple);
+	--code-value: rgb(93, 100, 212);
 	/* Collapse icons */
 	--collapse-icon-color: var(--text-faint);
 	--collapse-icon-color-collapsed: var(--text-accent);
