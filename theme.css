@@ -37,6 +37,9 @@ svg * {
 	--color-light-purple: #aa8fd1;
 	--color-outline: #282828;
 	--color-muted-purple: #1e1e32;
+	--color-dark-magenta: rgb(213, 26, 126);
+	--color-graph-node: rgb(140, 140, 140);
+	--color-graph-node-unresolved: rgb(95, 95, 100);
 
 	/* Custom bullet list */
 	.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
@@ -249,10 +252,10 @@ body {
 	--graph-controls-width: 240px;
 	--graph-text: var(--text-normal);
 	--graph-line: var(--color-base-35, var(--background-modifier-border-focus));
-	--graph-node: var(--text-muted);
-	--graph-node-unresolved: var(--text-faint);
-	--graph-node-focused: var(--text-accent);
-	--graph-node-tag: var(--color-green);
+	--graph-node: var(--color-graph-node);
+	--graph-node-unresolved: var(--color-graph-node-unresolved);
+	--graph-node-focused: var(--color-dark-magenta);
+	--graph-node-tag: var(--color-blue);
 	--graph-node-attachment: var(--color-yellow);
 	/* Headings */
 	--heading-formatting: var(--text-faint);
@@ -746,8 +749,8 @@ body {
 	--color-green: #44cf6e;
 	--color-cyan-rgb: 83, 223, 221;
 	--color-cyan: #53dfdd;
-	--color-blue-rgb: 2, 122, 255;
-	--color-blue: #027aff;
+	--color-blue-rgb: 41, 98, 208;
+	--color-blue: #0064d7;
 	--color-purple-rgb: 168, 130, 255;
 	--color-purple: #a882ff;
 	--color-pink-rgb: 250, 153, 205;
