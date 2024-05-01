@@ -117,6 +117,11 @@ svg * {
 	.view-header-title {
 		color: var(--text-normal);
 	}
+
+	/* carret == cursor */
+	.markdown-source-view.mod-cm6 .cm-content {
+		caret-color: var(--color-accent);
+	}
 }
 
 body {
