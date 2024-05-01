@@ -114,8 +114,13 @@ svg * {
 		border-width: 1px;
 	}
 
+	/* The open file name in the header */
 	.view-header-title {
-		color: var(--text-normal);
+		color: var(--text-muted);
+	}
+
+	.is-focused .workspace-leaf.mod-active .view-header-title {
+		color: var(--text-muted);
 	}
 
 	/* carret == cursor */
