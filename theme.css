@@ -41,6 +41,24 @@ svg * {
 	--color-graph-node: rgb(140, 140, 140);
 	--color-graph-node-unresolved: rgb(95, 95, 100);
 
+	--lightsalmon: #ffb6c1;
+	--sunstruckwhite: #dfcdb6;
+	--burlywood: #deb887;
+	--cadetblue: #5f9ea0;
+	--cornflowerblue: #6495ed;
+	--darkgray: #a9a9a9;
+	--darkkhaki: #bdb76b;
+	--darkolivegreen: #556b2f;
+	--darksalmon: #e9967a;
+	--darkseagreen : #8fbc8f;
+	--indianred: #cd5c5c;
+	--lightcoral: #f08080;
+	--mediumturquoise: #48d1cc;
+	--mediumaquamarine: #66cdaa;
+	--steelblue: #4682b4;
+	--tan: #d2b48c;
+	--thistle: #d8bfd8;
+
 	/* Custom bullet list */
 	.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
 		/* Bullet */
