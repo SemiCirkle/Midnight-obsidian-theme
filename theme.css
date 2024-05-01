@@ -122,6 +122,15 @@ svg * {
 	.markdown-source-view.mod-cm6 .cm-content {
 		caret-color: var(--color-accent);
 	}
+
+	/* Strikethrough text color */
+	.markdown-source-view.mod-cm6 .cm-strikethrough {
+		color: var(--text-muted);
+	}
+
+	.cm-strikethrough, del {
+		color: var(--text-muted);
+	}
 }
 
 body {
