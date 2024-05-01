@@ -138,7 +138,7 @@ body {
 	--blockquote-background-color: transparent;
 	/* Bold */
 	--bold-weight: var(--font-semibold);
-	--bold-color: inherit;
+	--bold-color: var(--thistle);
 	/* Borders */
 	--border-width: 1px;
 	/* Buttons */
@@ -369,7 +369,7 @@ body {
 	--input-font-weight: var(--font-normal);
 	--input-border-width: 1px;
 	/* Italic */
-	--italic-color: inherit;
+	--italic-color: var(--thistle);
 	--italic-weight: inherit;
 	/* Z-index */
 	--layer-cover: 5;
