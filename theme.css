@@ -57,7 +57,7 @@ svg * {
 	--mediumaquamarine: #66cdaa;
 	--steelblue: #4682b4;
 	--tan: #d2b48c;
-	--thistle: #d8bfd8;
+	--color-thistle: #d8bfd8;
 
 	/* Custom bullet list */
 	.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
@@ -180,7 +180,7 @@ body {
 	--blockquote-background-color: transparent;
 	/* Bold */
 	--bold-weight: var(--font-semibold);
-	--bold-color: var(--thistle);
+	--bold-color: var(--color-thistle);
 	/* Borders */
 	--border-width: 1px;
 	/* Buttons */
@@ -420,7 +420,7 @@ body {
 	--input-font-weight: var(--font-normal);
 	--input-border-width: 1px;
 	/* Italic */
-	--italic-color: var(--thistle);
+	--italic-color: var(--color-thistle);
 	--italic-weight: inherit;
 	/* Z-index */
 	--layer-cover: 5;
