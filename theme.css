@@ -42,60 +42,25 @@ svg * {
 	--color-graph-node-unresolved: rgb(95, 95, 100);
 	--color-thistle: #d8bfd8;
 
-	/* Custom bullet list */
-	.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
-		/* Bullet */
-		height: 5px;
-		width: 5px;
-		border-radius: 50%;
-		background-color: var(--text-faint);
+	/* Custom unorderd list */
+	.HyperMD-list-line-1 .cm-formatting.cm-formatting-list .list-bullet::after,
+	.HyperMD-list-line-1 :is(.cm-fold-indicator:hover,*) ~ .cm-formatting.cm-formatting-list .list-bullet::after,
+	div > ul > li > .list-bullet::after {
+		content:'●';
 	}
-
-	.markdown-source-view.mod-cm6 .HyperMD-list-line-2 .list-bullet:after {
-		/* Dash */
-		height: 1px;
-		width: 7px;
-		border-radius: 0%;
-		background-color: var(--text-faint);
-	}
-
-	.markdown-source-view.mod-cm6 .HyperMD-list-line-3 .list-bullet:after {
-		/* Hollow Bullet */
-		height: 4px;
-		width: 4px;
-		background-color: Transparent;
-		border-color: var(--text-faint);
-		border-style: solid;
-		border-radius: 50%;
-		border-width: 1px;
-	}
-
-	.markdown-source-view.mod-cm6 .HyperMD-list-line-4 .list-bullet:after {
-		/* Solid Square */
-		height: 5px;
-		width: 5px;
-		border-radius: 0%;
-		background-color: var(--text-faint);
-	}
-
-	.markdown-source-view.mod-cm6 .HyperMD-list-line-5 .list-bullet:after {
-		/* Dash */
-		height: 1px;
-		width: 7px;
-		border-radius: 50%;
-		background-color: var(--text-faint);
-	}
-
-	.markdown-source-view.mod-cm6 .HyperMD-list-line-6 .list-bullet:after {
-		/* Hollow Square */
-		height: 4px;
-		width: 4px;
-		background-color: Transparent;
-		border-color: var(--text-faint);
-		border-style: solid;
-		border-radius: 0%;
-		border-width: 1px;
-	}
+    :is(.cm-fold-indicator:hover,*) ~ .cm-formatting.cm-formatting-list .list-bullet::after,
+    .list-bullet::after {
+        content:'○';
+        width: unset; height: unset;
+        background-color: unset;
+        box-shadow: none;
+    }
+    .is-collapsed ~ .cm-formatting-list .list-bullet::after,
+    li.is-collapsed .list-bullet::after {
+        color: var(--list-marker-color-collapsed);
+        box-shadow: none;
+        background-color: transparent;
+    }
 
 	/* The open file name in the header */
 	.view-header-title {
