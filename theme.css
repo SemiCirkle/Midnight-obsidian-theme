@@ -136,6 +136,29 @@ svg * {
 	.cm-strikethrough, del {
 		color: var(--text-muted);
 	}
+	
+	.cm-s-obsidian span.cm-footref, .cm-s-obsidian span.cm-blockid {
+		border: var(--footnote-border-width);
+		border-top-right-radius: var(--footnote-radius);
+		border-bottom-right-radius: var(--footnote-radius);
+		border-left: none;
+		border-right: var(--footnote-border-width);
+
+		border-top-left-radius: var(--footnote-radius);
+		border-bottom-left-radius: var(--footnote-radius);
+
+		padding-top: var(--footnote-padding-y);
+		padding-bottom: var(--footnote-padding-y);
+		padding-left: var(--footnote-padding-x);
+		padding-right: var(--footnote-padding-x);
+
+		color: var(--footnote-color);
+		background-color: var(--footnote-background);
+		font-size: var(--footnote-size);
+		text-decoration: var(--footnote-decoration);
+		font-weight: var(--footnote-weight);
+		vertical-align: baseline;
+	}
 }
 
 body {
@@ -265,6 +288,7 @@ body {
 	--file-header-border: var(--border-width) solid transparent;
 	--file-header-justify: center;
 	/* Relative font sizes */
+	--font-footnote: 0.65em;
 	--font-smallest: 0.8em;
 	--font-smaller: 0.875em;
 	--font-small: 0.933em;
@@ -284,7 +308,15 @@ body {
 	--font-extrabold: 800;
 	--font-black: 900;
 	/* Footnotes */
-	--footnote-size: var(--font-smaller);
+	--footnote-size: var(--font-footnote);
+	--footnote-color: var(--text-muted);
+	--footnote-decoration: none;
+	--footnote-background: hsla(0, 0%, 40%, 0.1);
+	--footnote-border-width: 0px;
+	--footnote-padding-x: 0.65em;
+	--footnote-padding-y: 0.25em;
+	--footnote-radius: 0.5em;
+	--footnote-weight: inherit;
 	/* Graphs */
 	--graph-controls-width: 240px;
 	--graph-text: var(--text-normal);
