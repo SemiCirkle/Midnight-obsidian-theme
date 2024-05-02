@@ -732,7 +732,7 @@ body {
 	--tag-border-width: 0px;
 	--tag-padding-x: 0.65em;
 	--tag-padding-y: 0.25em;
-	--tag-radius: 2em;
+	--tag-radius: 0.5em;
 	--tag-weight: inherit;
 	/* Window frame */
 	--titlebar-background: var(--background-secondary);
