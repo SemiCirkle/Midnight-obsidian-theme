@@ -426,7 +426,7 @@ body {
 	/* File navigator */
 	--nav-item-size: var(--font-ui-small);
 	--nav-item-color: var(--text-muted);
-	--nav-item-color-hover: var(--text-normal);
+	--nav-item-color-hover: var(--color-light-blue);
 	--nav-item-color-active: var(--color-light-blue);
 	--nav-item-color-selected: var(--text-normal);
 	--nav-item-color-highlighted: var(--text-accent-hover);
