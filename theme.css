@@ -145,6 +145,11 @@ svg * {
 		border-bottom: 1px solid var(--color-outline);
 		border-right: 1px solid var(--color-outline);
 	}
+
+	.callout {
+		/* Default 0.12 in aplha value */
+		background-color: rgba(var(--callout-color), 0.12);
+	}
 }
 
 body {
@@ -175,7 +180,7 @@ body {
 	--callout-border-width: 0px;
 	--callout-border-opacity: 0.25;
 	--callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
-	--callout-radius: var(--radius-s);
+	--callout-radius: var(--radius-m);
 	--callout-blend-mode: var(--highlight-mix-blend-mode);
 	--callout-title-color: inherit;
 	--callout-title-padding: 0;
@@ -183,7 +188,7 @@ body {
 	--callout-content-padding: 0;
 	--callout-content-background: transparent;
 	--callout-bug: var(--color-red-rgb);
-	--callout-default: var(--color-blue-rgb);
+	--callout-default: var(--color-purple-rgb);
 	--callout-error: var(--color-red-rgb);
 	--callout-example: var(--color-purple-rgb);
 	--callout-fail: var(--color-red-rgb);
