@@ -125,6 +125,13 @@ svg * {
 		font-size: var(--h4-size);
 		color: lightblue;
 	}
+
+	/* Header letter distance */
+	.h1, .markdown-rendered h1, h2, .markdown-rendered h2, h3, .markdown-rendered h3, h4, .markdown-rendered h4, h5, .markdown-rendered h5, h6, .markdown-rendered h6 {
+		/* Default: -0.015em */
+		letter-spacing: 0.008em;
+	}
+
 	/* Embedded notes header letter distance */
 	.internal-embed > .markdown-embed .markdown-rendered h1, .internal-embed > .markdown-embed .markdown-rendered h2, .internal-embed > .markdown-embed .markdown-rendered h3, .internal-embed > .markdown-embed .markdown-rendered h4, .internal-embed > .markdown-embed .markdown-rendered h5, .internal-embed > .markdown-embed .markdown-rendered h6, .internal-embed.markdown-embed .markdown-rendered h1, .internal-embed.markdown-embed .markdown-rendered h2, .internal-embed.markdown-embed .markdown-rendered h3, .internal-embed.markdown-embed .markdown-rendered h4, .internal-embed.markdown-embed .markdown-rendered h5, .internal-embed.markdown-embed .markdown-rendered h6 {
 		/* Default: -0.015em */
