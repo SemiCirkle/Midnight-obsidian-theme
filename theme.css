@@ -125,6 +125,12 @@ svg * {
 		font-size: var(--h4-size);
 		color: lightblue;
 	}
+	/* Embedded notes header letter distance */
+	.internal-embed > .markdown-embed .markdown-rendered h1, .internal-embed > .markdown-embed .markdown-rendered h2, .internal-embed > .markdown-embed .markdown-rendered h3, .internal-embed > .markdown-embed .markdown-rendered h4, .internal-embed > .markdown-embed .markdown-rendered h5, .internal-embed > .markdown-embed .markdown-rendered h6, .internal-embed.markdown-embed .markdown-rendered h1, .internal-embed.markdown-embed .markdown-rendered h2, .internal-embed.markdown-embed .markdown-rendered h3, .internal-embed.markdown-embed .markdown-rendered h4, .internal-embed.markdown-embed .markdown-rendered h5, .internal-embed.markdown-embed .markdown-rendered h6 {
+		/* Default: -0.015em */
+		letter-spacing: 0.008em;
+		padding-bottom: var(--p-spacing);
+	}
 }
 
 body {
