@@ -76,6 +76,16 @@ svg * {
 		caret-color: var(--color-accent);
 	}
 
+	/* Text and background color of Command palatte suggestions */
+	.suggestion-item.is-selected {
+		color: var(--color-light-blue) !important;
+		background-color: var(--color-muted-purple);
+	}
+
+	.suggestion-item.mod-complex {
+		color: var(--text-muted);
+	}
+
 	/* Strikethrough text color */
 	.markdown-source-view.mod-cm6 .cm-strikethrough {
 		color: var(--text-muted);
