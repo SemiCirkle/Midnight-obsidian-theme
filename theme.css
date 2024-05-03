@@ -118,6 +118,13 @@ svg * {
 		font-weight: var(--footnote-weight);
 		vertical-align: baseline;
 	}
+
+	/* Embedded notes title */
+	.mk-flow-minimal .markdown-embed-title, .mk-flow-seamless .markdown-embed-title {
+		display: block;
+		font-size: var(--h4-size);
+		color: lightblue;
+	}
 }
 
 body {
@@ -226,13 +233,13 @@ body {
 	--drag-ghost-background: rgba(0, 0, 0, 0.85);
 	--drag-ghost-text-color: #fff;
 	/* Embeds */
-	--embed-max-height: 4000px;
-	--embed-canvas-max-height: 400px;
-	--embed-background: inherit;
-	--embed-border-left: 2px solid var(--interactive-accent);
-	--embed-border-right: none;
-	--embed-border-top: none;
-	--embed-border-bottom: none;
+	--embed-max-height: 640px;
+	--embed-canvas-max-height: 64px;
+	--embed-background: var(--color-secondary-dark);
+	--embed-border-left: 4px solid var(--interactive-accent);
+	--embed-border-right: 1px solid var(--color-outline);
+	--embed-border-top: 1px solid var(--color-outline);
+	--embed-border-bottom: 1px solid var(--color-outline);
 	--embed-padding: 0 0 0 var(--size-4-6);
 	--embed-font-style: inherit;
 	/* Blocks */
