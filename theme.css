@@ -138,6 +138,13 @@ svg * {
 		letter-spacing: 0.008em;
 		padding-bottom: var(--p-spacing);
 	}
+	
+	/* Blockquote borders */
+	.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote, .markdown-rendered blockquote {
+		border-top: 1px solid var(--color-outline);
+		border-bottom: 1px solid var(--color-outline);
+		border-right: 1px solid var(--color-outline);
+	}
 }
 
 body {
@@ -156,7 +163,7 @@ body {
 	--blockquote-border-color: var(--interactive-accent);
 	--blockquote-font-style: normal;
 	--blockquote-color: inherit;
-	--blockquote-background-color: transparent;
+	--blockquote-background-color: var(--color-secondary-dark);
 	/* Bold */
 	--bold-weight: var(--font-semibold);
 	--bold-color: var(--color-thistle);
