@@ -1,4 +1,5 @@
 Consider giving [this repo](https://github.com/SemiCirkle/Midnight-obsidian-theme) a star on GitHub.
+
 This theme is free, open source and freely available under the GNU GPL v3.0 license. Check the source on [the theme Midnight GitHub page](https://github.com/SemiCirkle/Midnight-obsidian-theme).
 
 # Theme Midnight
