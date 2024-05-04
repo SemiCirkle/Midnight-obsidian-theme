@@ -46,11 +46,11 @@ svg * {
 	.HyperMD-list-line-1 .cm-formatting.cm-formatting-list .list-bullet::after,
 	.HyperMD-list-line-1 :is(.cm-fold-indicator:hover,*) ~ .cm-formatting.cm-formatting-list .list-bullet::after,
 	div > ul > li > .list-bullet::after {
-		content:'●';
+		content: "\25CF";
 	}
     :is(.cm-fold-indicator:hover, *) ~ .cm-formatting.cm-formatting-list .list-bullet::after,
     .list-bullet::after {
-        content:'○';
+        content: "\26AC";
         width: unset;
 		height: unset;
         background-color: unset;
@@ -120,7 +120,7 @@ svg * {
 	}
 
 	/* Embedded notes title */
-	.mk-flow-minimal .markdown-embed-title, .mk-flow-seamless .markdown-embed-title {
+	.mk-flow-minimal .markdown-embed-title, .mk-flow-seamless .markdown-embed-title, .embed-title {
 		display: block;
 		font-size: var(--h4-size);
 		color: lightblue;
@@ -453,7 +453,7 @@ body {
 	--list-marker-color-collapsed: var(--text-accent);
 	--list-bullet-border: none;
 	--list-bullet-radius: 50%;
-	--list-bullet-size: 0.33em;
+	--list-bullet-size: 0.33em;  /* This does nothing. Comment out custom bullet list to take effect. */
 	--list-bullet-transform: none;
 	--list-numbered-style: decimal;
 	/* File navigator */
