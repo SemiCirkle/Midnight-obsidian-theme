@@ -556,8 +556,8 @@ body {
 	--pdf-sidebar-background: var(--background-primary);
 	--pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.2);
 	/* Popovers - file previews */
-	--popover-width: 450px;
-	--popover-height: 400px;
+	--popover-width: 550px;
+	--popover-height: 530px;
 	--popover-max-height: 70vh;
 	--popover-pdf-width: 600px;
 	--popover-pdf-height: 800px;
