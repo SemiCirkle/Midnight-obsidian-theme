@@ -5,7 +5,7 @@ This theme is free, open source and freely available under the GNU GPL v3.0 lice
 # Theme Midnight
 
 "If there is one thing I like to look at, it's something nice."  -- Me (of course)
-This is the sentiment behind every feature, color and theaming that led to the creation of Midnight. I have been using Obsidan both on mobile and desktop for about 3 years now, but I have found that the default Obsidian Theme is kind off... *off*.
+This is the sentiment behind every feature, color and theaming that led to the creation of Midnight. I have been using Obsidan both on mobile and desktop for about 3 years now, but I have found that the default Obsidian Theme is kind of... *off*.
 
 >Theme Midnight is a dark theme with some flair added. **Featuring custom tags, custom footnots, embeds with text scrolling, custom bullet lists, and much more!** So while we're at it, let's talk features.
 
